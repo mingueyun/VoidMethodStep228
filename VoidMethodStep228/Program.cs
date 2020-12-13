@@ -11,9 +11,9 @@ namespace VoidMethodStep228
         static void Main(string[] args)
         {
             SeatBucket seat = new SeatBucket();
-            seat.Alpha = 4;
-            seat.bravo = 4;
-            seat.Add();
+            seat.Add(4,  5);
+            seat.Add(alpha: 6, bravo: 7);
+
             Console.ReadLine();
         }
     }

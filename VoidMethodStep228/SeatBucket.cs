@@ -8,12 +8,9 @@ namespace VoidMethodStep228
 {
     class SeatBucket
     {
-        public int Alpha { get; set; }
-        public int bravo { get; set; }
-
-        public void Add()
+        public void Add( int alpha, int bravo)
         {
-            int whatNumber = Alpha + bravo;
+            int whatNumber = alpha + 3;
             Console.WriteLine("Math Operation : " + whatNumber + "\nDisplaying second int : " + bravo);
         }
     }
